@@ -1,287 +1,36 @@
+img{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    position: absolute;
+}
 body{
-    background-color: rgb(52, 48, 48);
+    background-color: rgb(52, 48, 48);  
 }
-.header{
+.goto{
     display: flex;
-    background-color: black;
-    border: 15px solid rgb(87, 220,47);
-    border-radius: 15px;
-    height: 130px;
-    position: fixed;
-    z-index: 999;
-}
-.header img{
-    border-right: 15px solid rgb(87, 220, 47);
-    
-}
-.one{
-    display: flex;
-    color:rgb(87, 220, 47);
-    align-items: center;
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-.contact{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    color: rgb(87, 220, 47);
-    font-size: 45px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 321px;
-    text-decoration: none;
-    width: 200px;
-    transition: background-color 1s;
-    margin-left: 430px;
-}
-.contact:hover{
-    background-color:rgb(87, 220, 47);
-    color: black;
-}
-.download{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    color: rgb(87, 220, 47);
-    font-size: 45px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    width: 250px;
-    transition: background-color 1s;
-}
-.download:hover{
-    background-color:rgb(87, 220, 47);
-    color: black;
-}
-.amongus{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    color: rgb(87, 220, 47);
-    font-size: 45px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    width: 250px;
-    transition: background-color 1s;
-}
-.amongus:hover{
-    background-color:rgb(87, 220, 47);
-    color: black;
-}
-.swiper-slide img{
-    width: 50%;
-    height: 50%;
-}
-h1{
-    color:rgb(87, 220, 47);
-}
-.swiper-slide{
-    margin-left: 80px;
-}
-.margin img{
-    margin-top: 20px;
-}
-.demo{
-    display: flex;
-    text-align:center;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    font-size: 90px;
-    font-family: Arial, Helvetica, sans-serif;
-  } 
-  .rainbow{
-     animation: rainbow 2.5s linear;
-     animation-iteration-count: infinite;
-  }
-  .container a{
-    background-color:rgb(87, 220, 47);
-    text-decoration: none;
-    color: black;
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    border: 4px solid black;
-    border-radius: 15px;
-    height: 70px;
-    transition: color 1s;
-    transition: background-color 1s;
-    margin-top: 40px;
-}
-.container a:hover{
-    background-color:rgb(121, 120, 120);
-    color:rgb(87, 220, 47);
-}
-.us h1{
-    text-align: center;
-    margin-top: 70px;
-    font-size: 80px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.container h3{
-    margin-top: 10px;
-    color: white;
-}
-.about h1{
-    text-align: center;
-    margin-top: 70px;
-    font-size: 80px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.row a:hover{
-    box-shadow: red 0px 0px 14px 10px;
-}
-.about{
-    height: 40vh;
-}
-.box{
-    height: 40vh;
-}
-.about{
-    margin-bottom: 20px;
-}
-.effect{
-    height: 100px;
-    width: 900px;
-    background-color:rgb(87, 220, 47);
-    display: flex;
-    margin-bottom: 1000px;
-    transition: 1s;
-    border-radius: 15px;
-    border: 5px solid red;
-    box-shadow: red 0px 0px 14px 10px;
-    margin-left: 300px;
-}
-.box:hover .effect{
-    background-color:rgb(87, 220, 47);
-    transform: scale(1.6)
-    translateY(30px)
-    
-}
-.footer{
-    height: 40vh;
-    background-color: rgb(43, 42, 42);
     position: relative;
-    margin-top: 30px;
+    margin: auto;
+    top: 200px;
+    justify-content: center;  
+    width: 15%;
+    border-radius: 15px;
 }
- h2{
-    color: white;
-    position: absolute;
-    bottom: 150px;
-}
-.footer a{
-    color: white;
-}
-ul{
-    position: absolute;
-    bottom: 10px;
-    left: 200px;
-}
-h5{
-    position: absolute;
-    bottom: 100px;
-    color: white;
-}
-p{
-    position: absolute;
-    bottom: 50px;
-    color: white;
-    left: 400px;
-    font-size: 30px;
-    width: 700px;
-}
-.on p{
-    color: white;
-    position: absolute;
-    top: 130px;
-    left: 0px;
-    font-size: 20px;
-}
-.on{
-    position: absolute;
-}
-ul{
-    list-style-type: none;
-}
-.text{
-    display: flex;
-}
-.text h6{
-    margin-left: 310px;
-    color: black;
-    font-size: 25px;
-    z-index: 998;
-    margin-bottom: 30px;
-    background-color:rgb(87, 220, 47);
-    border: 3px solid black;
-    border-radius: 10px;
-}
-.image a{
+.goto a{
     text-decoration: none;
-}
-.image{
-    display: flex;
-}
-.image img{
-    width: 300px;
-    height: 350px;
+    font-size: 450%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border-radius: 15px;
+    text-align: center;
+    border: 10px solid black;
+    background: linear-gradient(#00ff37 0 0) var(--p,0)/var(--p,0) no-repeat;
     transition: all 1s;
-    display: flex;
-    margin-left: 290px;
 }
-.image img:hover{
-    transform: translateY(-30px);
-    opacity: 0.3;
-    box-shadow: red 0px 0px 100px 14px;
-    border: 3px solid black;
+.goto a:hover{
+    transform: scale(120%);
+  --p: 100%;
+  color: #fff;
+  box-shadow: #00ff37 0px 0px 90px 30px;
+  border: 3px solid black;
 }
-
-  @keyframes rainbow{
-          100%,0%{
-              color: rgb(255,0,0);
-          }
-          8%{
-              color: rgb(255,127,0);
-          }
-          16%{
-              color: rgb(255,255,0);
-          }
-          25%{
-              color: rgb(127,255,0);
-          }
-          33%{
-              color: rgb(0,255,0);
-          }
-          41%{
-              color: rgb(0,255,127);
-          }
-          50%{
-              color: rgb(0,255,255);
-          }
-          58%{
-              color: rgb(0,127,255);
-          }
-          66%{
-              color: rgb(0,0,255);
-          }
-          75%{
-              color: rgb(127,0,255);
-          }
-          83%{
-              color: rgb(255,0,255);
-          }
-          91%{
-              color: rgb(255,0,127);
-          }
-  }
-  .mySwiper{
-    border-bottom: 10px solid rgb(87,220,27);
-                       
-  }
